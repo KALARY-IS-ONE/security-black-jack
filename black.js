@@ -20,7 +20,7 @@ const dateFormat = require("dateformat");
 var table = require("table").table;
 const Discord = require("discord.js");
 const cmd = require("node-cmd");
-const prefix = "%";
+const prefix = "d!";
 client.login("");
 client.on("ready", async () => {
   console.log(`Logged in as ${client.user.username}!`);
@@ -140,8 +140,8 @@ client.on("message", async message => {
 > say , unban[userid/all]
 ━──╮•╭──━
 
-__ [Vote](link top gg) __  
-__ [invite](invitebot) __  __ [Support](https://discord.gg/cetGQvWD3h) __
+__ [Vote](Coming Soon) __  
+__ [invite](https://discord.com/api/oauth2/authorize?client_id=799359065804505188&permissions=8&scope=bot) __  __ [Support](https://discord.gg/FR9cdgzYmA) __
 
 `);
     message.channel.send(help);
